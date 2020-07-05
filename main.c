@@ -32,7 +32,7 @@ void create_vtk(int file_number,struct cell* cell_grid, int num_cell_x, int num_
     char f_number[10];
     sprintf(f_number, "%d", file_number);
     
-    strcat(vtk_file,"lbmSim");
+    strcat(vtk_file,"/Output/lbmSim");
     strcat(vtk_file, f_number);
     strcat(vtk_file, ".vtk");
     FILE *vtk_ptr;
