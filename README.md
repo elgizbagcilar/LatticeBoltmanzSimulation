@@ -2,6 +2,8 @@
 
 This is a group project for High End Simulation Progmming course in FAU-Erlangen/Nürnberg in which we implemented a parallel programmed Lattice Boltzman fluid simulation OpenCL. The original homework is developed in Ubuntu OS with CUDA and NVIDIA GPUs. However, I converted the code to run in XCode 11.4 with OpenCL 1.2 in a Intel Iris Plus Graphics 640 GPU.
 
+![](lb_simulation.gif)
+
 ## Requirements
 - [XCode 11.4](https://developer.apple.com/documentation/xcode-release-notes/xcode-11_4-release-notes).
 - [OpenCL 1.2](https://developer.apple.com/opencl/)
